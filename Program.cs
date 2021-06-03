@@ -47,18 +47,11 @@ namespace PowersTable
                             }
                         }
                     }
-                    //else
-                    //{
-                    //    Console.WriteLine("That is not a whole number between 1 and 1290.");
-                    //    goOn = true;
-
-                    //}
                 }
                 catch (FormatException)
                 {
                     Console.WriteLine("That is not a whole number.");
                 }
-
             }
         }
 
